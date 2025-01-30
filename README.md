@@ -30,6 +30,10 @@ python GRUtopia/demo/h1_house.py
 
 ### Modify h1_house.yaml
 
+### View the environment with WebRTC
+
+Use link: ```http://127.0.0.1:8211/streaming/webrtc-demo/?server=127.0.0.```
+
 To change the camera location, modify the yaml file. The cctvs are created as new robots. 
 
 
