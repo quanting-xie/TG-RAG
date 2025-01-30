@@ -3,11 +3,11 @@
 
 
 ### Run docker
-'''
+```
 cd GRUtopia
-'''
+```
 
-'''
+```
 sudo docker run --name grutopia -it --rm --gpus all --network host \
   -e "ACCEPT_EULA=Y" \
   -e "PRIVACY_CONSENT=Y" \
@@ -22,11 +22,11 @@ sudo docker run --name grutopia -it --rm --gpus all --network host \
   -v $HOME/docker/isaac-sim/data:/root/.local/share/ov/data:rw \
   -v $HOME/docker/isaac-sim/documents:/root/Documents:rw \
   grutopia:0.0.1
-'''
+```
 
-'''
+```
 python GRUtopia/demo/h1_house.py
-'''
+```
 
 ### Modify h1_house.yaml
 
